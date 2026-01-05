@@ -1,5 +1,45 @@
 html,
 body {
-    background-color: #F5F7FA;
+    background-color: #375B68;
     max-width: 1440px;
+    font-family: "Sahitya", serif;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ----------------------root--------------------- */
+
+:root {
+    --text-color: #F5F7FA;
+}
+
+/* ----------------------header--------------------- */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 66px;
+}
+
+.header .list {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    list-style: none;
+    margin: 0px;
+}
+
+.header .list .item {
+    color: var(--text-color);
+    font-size: 18px;
+}
+
+.header .icons {
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
